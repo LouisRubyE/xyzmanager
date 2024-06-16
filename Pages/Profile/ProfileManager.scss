@@ -1,0 +1,179 @@
+$blue : #003366;
+.container {
+  padding: 40px;
+  padding-left: 40px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+
+.header {
+  text-align: left;
+  margin-bottom: 20px;
+  color: $blue;
+  font-size: 40px ;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row !important;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.image-container .button{
+  padding: 8px 40px;
+  height: 40px;
+  border-radius: 25px;
+  color: $blue;
+  font-weight: bold;
+  font-size: 14px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.button-upload{
+  width:250px;
+}
+.file-input {
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #c8e6c9;
+  color: #388e3c;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  text-align: center !important;
+
+}
+.input-group-password .button{
+  position: relative;
+  background-color: $blue;
+  border-radius: 25px;
+  color:#fff;
+  align-items: center;
+  top: 6px;
+}
+.button:hover {
+  background-color: #a5d6a7;
+}
+
+.input-group {
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.label {
+  margin-bottom: 0px;
+  color: #003366 !important;
+}
+
+.input, .select, .input-pw {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid $blue !important;
+  border-radius:12px ;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.input-group-password {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  
+}
+
+.input-group-password .input-pw {
+  flex-grow: 1;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.button-group .button {
+  margin-top: 20px;
+  flex: 1;
+  background-color: #003366 !important;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 25px !important;
+}
+
+.button-group .button:hover {
+  background-color: #002244 !important;
+}
+
+.change-button .button:hover {
+  background-color: #002244;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  min-width: 600px; /* Adjust as needed to prevent collapsing */
+}
+
+.text-below-buttons{
+  margin-top: 80px;
+}
+
+.container-text-below-buttons{
+  margin: 10px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  text-align: center !important;
+  font-weight: 500;
+}
+
+.h3-style{
+  font-size: 15px;
+  align-items: center;
+  font: helvetica;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #04315B;
+}
+
+.buttons-vertical{
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  text-align: center !important;
+}
+
+@media (min-width: 768px) {
+  .left-section, .right-section {
+    flex: 1 1 48%;
+  }
+}
